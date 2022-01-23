@@ -56,8 +56,8 @@ h1 {
 
 .tbl th {
   text-align: left;
-  background-color: none;
   color: var(--ultra-light);
+  background-color: none;
 }
 
 .head {

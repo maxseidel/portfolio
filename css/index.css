@@ -1,5 +1,5 @@
 :root {
-  --crimson: #900f09;
+  --crimson: #072a42;
 }
 
 .footer {
@@ -65,7 +65,7 @@
 }
 
 .connect {
-  background-color: #232323;
+  background-color: #272a42;
   width: 70%;
   padding: 21px 15% 42px 15%;
   font-family: "Poppins", "sans-serif";
