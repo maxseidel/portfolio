@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Max Seidel</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="src/icon.png">
-    <link rel="stylesheet" type="text/css" href="./css/siteWide.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="navOverlay" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="overlay-content">
-        <a href="index.html">Home</a>
-        <a href="articles.html">Articles & Awards</a>
-        <a href="projects.html">Projects & Experiences</a>
-        <a href="resume.html">Resume</a>
-      </div>
-    </div>
-    <div class="header">
-      <div class="nav-bar-opposition-wrapper">
-        <button type="button" onclick="openNav()" class="hamburger"><p>menu</p></button>
-        <img src="src/icon.png" alt="Max Seidel Logo" class="logo">
-        <p class="opposition-text header-text">Max Seidel</p>
-      </div>
-      <ul class="nav-bar-links-wrapper">
-        <a href="index.html"><li class="nav-bar-item header-text">Home</li></a>
-        <a href="articles.html"><li class="nav-bar-item header-text" onmouseover="navHover()" onmouseover="navReset()">Articles & Awards</li></a>
-        <a href="projects.html"><li class="nav-bar-item header-text" onmouseover="navHover()" onmouseover="navReset()">Projects & Experience</li></a>
-        <a href="resume.html"><li class="nav-bar-item header-text" onmouseover="navHover()" onmouseover="navReset()">Resume</li></a>
-      </ul>
-    </div>
 
-    <div class="body1">
-      <h1>A Brief <br class="smartBreak">Introduction</h1>
-      <div class="Introduction">
-        <img src="src/spider-man.jpg" alt="Max Seidel" class="profile-pic">
+<head>
+  <meta charset="utf-8">
+  <title>Max Seidel</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="src/icon.png">
+  <link rel="stylesheet" type="text/css" href="./css/siteWide.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
 
-        <div class="bio">
-          <h2>Hi, I'm <span>Max</span>, a Mechanical Engineer from Atlanta, Georgia studying at Northeastern University.</h2>
-          <h3>I spend my free time tinkering with 3D printers, CAD, microcontrollers, playing tennis, electronics, and more.</p>
+<body>
+  <div id="navOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles & Awards</a>
+      <a href="projects.html">Projects & Experiences</a>
+      <a href="resume.html">Resume</a>
+    </div>
+  </div>
+  <div class="header">
+    <div class="nav-bar-opposition-wrapper">
+      <button type="button" onclick="openNav()" class="hamburger">
+        <p>menu</p>
+      </button>
+      <img src="src/icon.png" alt="Max Seidel Logo" class="logo">
+      <p class="opposition-text header-text">Max Seidel</p>
+    </div>
+    <ul class="nav-bar-links-wrapper">
+      <a href="index.html">
+        <li class="nav-bar-item header-text">Home</li>
+      </a>
+      <a href="articles.html">
+        <li class="nav-bar-item header-text" onmouseover="navHover()" onmouseover="navReset()">Articles & Awards</li>
+      </a>
+      <a href="projects.html">
+        <li class="nav-bar-item header-text" onmouseover="navHover()" onmouseover="navReset()">Projects & Experience</li>
+      </a>
+      <a href="resume.html">
+        <li class="nav-bar-item header-text" onmouseover="navHover()" onmouseover="navReset()">Resume</li>
+      </a>
+    </ul>
+  </div>
+
+  <div class="body1">
+    <h1>A Brief <br class="smartBreak">Introduction</h1>
+    <div class="Introduction">
+      <img src="src/spider-man.jpg" alt="Max Seidel" class="profile-pic">
+
+      <div class="bio">
+        <h2>Hi, I'm <span>Max</span>, a Mechanical Engineer from Atlanta, Georgia studying at Northeastern University.</h2>
+        <h3>I spend my free time tinkering with 3D printers, CAD, microcontrollers, playing tennis, electronics, and more.</p>
           <h3 class="bullet-head">I have experience with:</h3>
           <ul>
             <li>Computer Aided Design & Digital Fabrication</li>
@@ -54,73 +65,81 @@
             <li>Arduino, ESP32s, & Raspberry Pis</li>
             <li>Web Development</li>
           </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="connect">
+    <h1>Connect</h1>
+    <a class="link-col" href="https://www.linkedin.com/in/max-seidel/" target="_blank"><svg class="social-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" />
+      </svg></a>
+
+    <a class="link-col" href="https://github.com/maxseidel" target="_blank"><svg class="social-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z" />
+      </svg></a>
+
+    <a class="link-col" href="mailto:seidel.m@northeastern.edu" target="_blank"><svg class="social-link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 24 24">
+        <path
+          d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm5.144 14.5h-10.288c-.472 0-.856-.384-.856-.856v-6.788c0-.472.384-.856.856-.856h10.288c.472 0 .856.384.856.856v6.788c0 .472-.384.856-.856.856zm-5.144-3.043l-4.671-3.241-.01 5.784h9.342v-5.784l-4.661 3.241zm4.435-4.957h-8.895l4.46 3.115s3.126-2.203 4.435-3.115z" />
+      </svg></a>
+  </div>
+
+  <div class="body">
+    <div class="adventures">
+      <h1>Recent <br class="smartBreak">Work</h1>
+      <div class="company">
+        <img src="src/cube-logo.png" alt="The Cube Logo" class="company-logo">
+        <div class="company-text">
+          <p class="company-name">Berkshire Grey</p>
+          <p class="involvement">Mechanical Engineering Co-op|Robotic Pick Team</p>
+          <li class="company-description">Gather requirements, ideation, prototype, documentation, design reviews, ecos, omnify, drawings, supply chain, part procurement, communicate with suppliers to get custom solutions</li>
+          <li class="company-description">Multi Setpoint Tool, Environmental Testing, Mesh work, robot weldment assembly, Eiger, MIG welding.</li>
+          <li class="company-description">BLAH BLAH BLAH d3njlrndfouinr4i.</li>
+
+          <p class="links">Related Links</p>
+          <a class="company-link" href="https://www.berkshiregrey.com/" target="_blank">Website</a>
+        </div>
+      </div>
+      <div class="company">
+        <img src="src/atlfs.png" alt="Atlanta Face Shields Logo" class="company-logo">
+        <div class="company-text">
+          <p class="company-name">Atlanta Face Shields</p>
+          <p class="involvement">Founder</p>
+          <li class="company-description">Mass-produced and donated 3D printed PPE for Atlanta healthcare workers during the COVID-19 pandemic.</li>
+          <li class="company-description">Managed multi-tiered supply chain and dozens of volunteers, contractors, & suppliers.</li>
+          <li class="company-description">Continued manufacturing into Spring and Fall of 2020 by funding 'franchise' organizations at Northeastern University, the University of Alabama, Georgia Insitute of Technology, and the California Insitute of
+            Technology.</li>
+
+          <p class="links">Related Links</p>
+          <a class="company-link" href="http://atlantafaceshields.com/" target="_blank">Website</a>
+          <a class="company-link" href="https://www.instagram.com/atlantafaceshields/" target="_blank">Instagram</a>
+        </div>
+      </div>
+
+      <div class="company last-company">
+        <img src="src/br-logo.png" alt="Bama Racing Logo" class="company-logo">
+        <div class="company-text">
+          <p class="company-name">Complex Rheology And Biomechanics Lab, Georgia Institute of Technology</p>
+          <p class="involvement">Research Assistant</p>
+          <li class="company-description">Led the design, construction, and data collection for the “Smarticle” and “Soft Robotic Earthworm” projects at the Complex Rheology and Biomechanics Lab.</li>
+          <li class="company-description">Published author in paper titled Lateral Undulation Aids Biological and Robotic Earthworm Anchoring and Locomotion to Bioinspiration and Biomimetics Journal, Dec 2021.</li>
+
+
+          <p class="links">Related Links</p>
+          <!--a class="company-link" href="http://atlantafaceshields.com/" target="_blank">Website</a-->
+          <a class="company-link" href="https://crablab.gatech.edu/pages/publications/2021-lateral.html" target="_blank">Website</a>
         </div>
       </div>
     </div>
+  </div>
 
-      <div class="connect">
-        <h1>Connect</h1>
-          <a class="link-col" href="https://www.linkedin.com/in/nathan-eads-b1693a185/" target="_blank"><svg class="social-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg></a>
-
-          <a class="link-col" href="https://github.com/nfe213" target="_blank"><svg class="social-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg></a>
-
-          <a class="link-col" href="mailto:nfeads@crimson.ua.edu" target="_blank"><svg class="social-link" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm5.144 14.5h-10.288c-.472 0-.856-.384-.856-.856v-6.788c0-.472.384-.856.856-.856h10.288c.472 0 .856.384.856.856v6.788c0 .472-.384.856-.856.856zm-5.144-3.043l-4.671-3.241-.01 5.784h9.342v-5.784l-4.661 3.241zm4.435-4.957h-8.895l4.46 3.115s3.126-2.203 4.435-3.115z"/></svg></a>
-    </div>
-
-    <div class="body">
-      <div class="adventures">
-        <h1>Recent <br class="smartBreak">Work</h1>
-        <div class="company">
-          <img src="src/atlfs.png" alt="Atlanta Face Shields Logo" class="company-logo">
-          <div class="company-text">
-            <p class="company-name">Atlanta Face Shields</p>
-            <p class="involvement">Founder</p>
-            <li class="company-description">Mass-produced and donated 3D printed PPE for Atlanta healthcare workers during the COVID-19 pandemic.</li>
-            <li class="company-description">Managed multi-tiered supply chain and dozens of volunteers, contractors, & suppliers.</li>
-            <li class="company-description">Continued manufacturing into Spring and Fall of 2020 by funding 'franchise' organizations at Northeastern University, the University of Alabama, Georgia Insitute of Technology, and the California Insitute of Technology.</li>
-
-            <p class="links">Related Links</p>
-            <a class="company-link" href="http://atlantafaceshields.com/" target="_blank">Website</a>
-            <a class="company-link" href="https://www.instagram.com/atlantafaceshields/" target="_blank">Instagram</a>
-          </div>
-        </div>
-
-        <div class="company">
-          <img src="src/cube-logo.png" alt="The Cube Logo" class="company-logo">
-          <div class="company-text">
-            <p class="company-name">The Cube Industrial 3D Printing Lab</p>
-            <p class="involvement">Student Technician & Webmaster</p>
-            <li class="company-description">Maintain and manage industrial and hobbyist print farm.</li>
-            <li class="company-description">Teach peers fundamentals of 3D printing and modeling for 3D printing.</li>
-            <li class="company-description">Oversee Cube website and match to latest University Web Design Language.</li>
-
-            <p class="links">Related Links</p>
-            <a class="company-link" href="https://thecube.eng.ua.edu/" target="_blank">Website</a>
-            <a class="company-link" href="https://www.instagram.com/the_cube_ua/" target="_blank">Instagram</a>
-          </div>
-        </div>
-
-        <div class="company last-company">
-          <img src="src/br-logo.png" alt="Bama Racing Logo" class="company-logo">
-          <div class="company-text">
-            <p class="company-name">University of Alabama SAE Baja</p>
-            <p class="involvement">Electrical and Computer Science Design Lead</p>
-            <li class="company-description">Oversee design and fabrication of engine monitoring system.</li>
-            <li class="company-description">Maintain elementary vehicle electronics.</li>
-            <li class="company-description">Work with various radio networks to establish long range remote connection to race vehicle.</li>
-
-            <p class="links">Related Links</p>
-            <!--a class="company-link" href="http://atlantafaceshields.com/" target="_blank">Website</a-->
-            <a class="company-link" href="https://www.instagram.com/ua_bamaracing/" target="_blank">Instagram</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <p>© 2022 Max Seidel</p>
-    </div>
-  </body>
-  <script src="js/hamburger.js"></script>
+  <div class="footer">
+    <p>© 2022 Max Seidel</p>
+  </div>
+</body>
+<script src="js/hamburger.js"></script>
 
 </html>
