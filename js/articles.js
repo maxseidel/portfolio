@@ -1,9 +1,9 @@
-function BSA() {
-  window.open("https://www.atlantabsa.org/WeAreHelpful");
+function NEUFS1() {
+  window.open("https://news.northeastern.edu/2020/09/02/back-on-the-boston-campus-a-northeastern-student-plans-to-make-face-shields-in-his-dorm-and-donate-them/");
 }
 
-function Pres() {
-  window.open("https://president.ua.edu/news/message-from-the-president-april-13-2020/");
+function NEUFS2() {
+  window.open("https://news.northeastern.edu/2020/05/26/healthcare-workers-needed-personal-protective-equipment-they-took-action/");
 }
 
 function Mag() {
