@@ -22,8 +22,8 @@ function patch() {
   window.open("https://patch.com/georgia/sandysprings/makerspace-allows-riverwood-students-explore-stem-activities");
 }
 
-function mtb() {
-  window.open("https://patch.com/georgia/sandysprings/riverwood-mountain-biking-team-places-1st-season");
+function TOM() {
+  window.open("https://tomglobal.org/community?id=5ca3885bb506a2297168a93a");
 }
 
 function forKai() {
